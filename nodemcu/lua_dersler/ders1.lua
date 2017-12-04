@@ -13,7 +13,7 @@ ledpin1=4   -- esp8266 üserindeki led
 
 --arduino da oldugu gibi NODEMCU içinde ilk örneğimiz blink
 -- setup() kismindaki gibi 
-gpio.mode(ledPin,gpio.OUTPUT)
+gpio.mode(ledpin1,gpio.OUTPUT)
 
 -- bir timer kuruyoruz ve timer her süre sonunda bir alarm üretiyor
 -- unutmayalım nodemcu da DELAY yok!!!
